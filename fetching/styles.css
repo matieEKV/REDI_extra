@@ -1,0 +1,63 @@
+/* General Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    width: 540px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    font-size: 1.2rem;
+    border: solid 2px #fff;
+    color: #fff;
+    background-color: #4d9092;
+    padding: 5px;
+    width: 75%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.main-content {
+    width: 70%;
+    height: 210px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 50px 40px;
+    box-shadow: 0 0 10px;
+}
+
+.main-content .text-area {
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.button-area button {
+    background-color: #4d9092;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.button-area button:active {
+    background-color: lightblue;
+}
