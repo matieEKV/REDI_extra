@@ -49,6 +49,12 @@ body{
     line-height: 1.5;
 }
 
+.main-content .person {
+    font-size: 1.3rem;
+    margin-top: 10px;
+    color: purple;
+}
+
 .button-area button {
     background-color: #4d9092;
     color: #fff;
